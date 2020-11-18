@@ -102,16 +102,17 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: rgb(1, 131, 29);
+  color: white;
   font-size: 35px;
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: rgb(120, 194, 0);
+  color: rgb(132, 132, 141);
   transition: all 0.3s ease;
+  font-weight: 600;
 }
 .navbar.sticky .logo a span {
-  color: rgb(120, 194, 0);
+  color: rgb(0, 13, 194);
 }
 .navbar .menu li {
   list-style: none;
@@ -119,14 +120,14 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: rgb(1, 131, 29);
-  font-size: 18px;
-  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: rgb(120, 194, 0);
+  color: rgb(4, 0, 255);;
 }
 .navbar.sticky .menu li a:hover {
   color: rgb(165, 194, 0);
@@ -143,7 +144,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: rgb(0, 83, 62);
+  background: rgb(15, 0, 83);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -177,9 +178,9 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("images/1.jpg") no-repeat center;
+  background: url("images/2.jpg") no-repeat center;
   height: 100vh;
-  color: rgb(120, 194, 0);
+  color: white;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -206,19 +207,20 @@ section .title::after {
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(1, 93, 39);
-  color: rgb(0, 10, 5);
+  background: rgb(0, 153, 255);
+  color: white;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid rgb(0, 109, 5);
+  border: 2px solid white;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: rgb(120, 194, 0);
+  color:rgb(0, 17, 255);
   background: none;
+  font-weight: 400;
 }
 
 /* about section styling */
@@ -243,25 +245,25 @@ section .title::after {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: rgb(120, 194, 0);
+  color: rgb(0, 174, 255);
 }
 .about .about-content .right p {
   text-align: justify;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(0, 83, 62);
+  background: rgb(0, 110, 255);
   color: rgb(251, 251, 251);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid rgb(0, 109, 5);
+  border: 2px solid  rgb(0, 174, 255);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: rgb(7, 146, 88);
+  color:  rgb(0, 174, 255);
   background: none;
 }
 
@@ -348,11 +350,11 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: rgb(2, 177, 10);
+  color:rgb(11, 174, 238);
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
-  color: rgb(0, 241, 0);
+  color:rgb(12, 143, 195);
 }
 .services .serv-content .card .text {
   font-size: 25px;
@@ -417,7 +419,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(0, 109, 5);
+  background: rgb(90, 112, 160);
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -485,7 +487,7 @@ section .title::after {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid rgba(0, 105, 0, 0.555);
+  border: 5px solid rgb(4, 0, 255);
   transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img {
@@ -503,7 +505,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid rgb(0, 83, 62) !important;
+  border: 2px solid rgb(0, 8, 83) !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -512,7 +514,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: rgb(1, 109, 82) !important;
+  background: rgb(69, 1, 109) !important;
 }
 
 /* contact section styling */
